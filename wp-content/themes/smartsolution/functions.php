@@ -26,3 +26,8 @@ function load_style_script(){
  * загружаем стили и скрипты
  **/
 add_action('wp_enqueue_scripts', 'load_style_script');
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
