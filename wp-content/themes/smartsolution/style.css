@@ -10,7 +10,8 @@ Author: Feel
 /*@import url("/css/fonts.css");*/
 body, header, main, footer, div, p, h1, h2, h3, figure, figcaption, a {
     font-size: 18px;
-    font-family: 'Open Sans', Arial, Impact; }
+    font-family: 'Open Sans', Arial, Impact;
+    font-weight: 300;}
 
 ul, li {
     margin: 0;
