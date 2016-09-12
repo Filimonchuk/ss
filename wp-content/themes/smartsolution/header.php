@@ -19,16 +19,24 @@
 
 <body>
 <header class="header">
-	<div class="logo"><a href="<?php home_url(); ?>">
+	<div class="logo"><a href="<?php echo home_url(); ?>">
 			<img class="img_logo" src="<?php bloginfo('template_url'); ?>/images/logo_smartsolution.svg" alt="Логотип компании Smart Solution"></a>
 	</div>
-	<nav class="header_nav">
-		<ul class="nav nav-pills header_nav_menu">
-			<li><a href="index_security.html">Категории</a>
-			<li><a href="index_product.html">Доставка и оплата</a>
-			<li><a href="#">О магазине</a>
-		</ul>
-	</nav>
+	<?php
+	wp_nav_menu( array(
+		'container'=>'nav',
+		'container_class'=>'header_nav',
+		'menu_class'=>'nav nav-pills header_nav_menu',
+		'theme_location'=>'menu'
+	) );
+	?>
+<!--	<nav class="header_nav">-->
+<!--		<ul class="nav nav-pills header_nav_menu">-->
+<!--			<li><a href="index_security.html">Категории</a>-->
+<!--			<li><a href="index_product.html">Доставка и оплата</a>-->
+<!--			<li><a href="#">О магазине</a>-->
+<!--		</ul>-->
+<!--	</nav>-->
 	<div class="currency">
 		<ul class="nav nav-pills menu_currency">
 			<li><a href="#">&#36;</a>
