@@ -1,3 +1,4 @@
+<?php print_var("taxonomy-product_cat.php");?>
 <?php
 /**
  * The Template for displaying products in a product category. Simply includes the archive template

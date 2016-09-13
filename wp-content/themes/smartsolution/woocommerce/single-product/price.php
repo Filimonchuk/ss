@@ -1,3 +1,4 @@
+<?php print_var("/single-product/price.php");?>
 <?php
 /**
  * Single Product Price, including microdata for SEO
@@ -32,3 +33,4 @@ global $product;
 	<link itemprop="availability" href="http://schema.org/<?php echo $product->is_in_stock() ? 'InStock' : 'OutOfStock'; ?>" />
 
 </div>
+<?php print_var("END /single-product/price.php");?>

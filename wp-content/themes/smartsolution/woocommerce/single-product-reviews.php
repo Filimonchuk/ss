@@ -1,3 +1,4 @@
+<?php print_var("single-product-reviews.php");?>
 <?php
 /**
  * Display single product reviews (comments)
@@ -110,3 +111,4 @@ if ( ! comments_open() ) {
 
 	<div class="clear"></div>
 </div>
+<?php print_var("END single-product-reviews.php");?>

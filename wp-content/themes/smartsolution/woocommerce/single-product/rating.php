@@ -1,3 +1,4 @@
+<?php print_var("/single-product/rating.php");?>
 <?php
 /**
  * Single Product Rating
@@ -43,3 +44,4 @@ if ( $rating_count > 0 ) : ?>
 	</div>
 
 <?php endif; ?>
+<?php print_var("END /single-product/rating.php");?>

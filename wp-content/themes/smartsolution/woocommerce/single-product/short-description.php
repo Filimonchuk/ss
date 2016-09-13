@@ -1,3 +1,4 @@
+<?php print_var("/single-product/short-description.php");?>
 <?php
 /**
  * Single product short description
@@ -30,3 +31,4 @@ if ( ! $post->post_excerpt ) {
 <div itemprop="description">
 	<?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
 </div>
+<?php print_var("END /single-product/short-description.php");?>

@@ -1,3 +1,4 @@
+<?php print_var("/single-product/product-thumbnails.php");?>
 <?php
 /**
  * Single Product Thumbnails
@@ -69,3 +70,4 @@ if ( $attachment_ids ) {
 	?></div>
 	<?php
 }
+print_var("END /single-product/product-thumbnails.php");

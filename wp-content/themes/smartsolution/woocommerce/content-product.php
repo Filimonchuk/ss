@@ -26,6 +26,7 @@ global $product;
 if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
+print_var("content-product.php");
 ?>
 <li <?php post_class(); ?>>
 	<?php

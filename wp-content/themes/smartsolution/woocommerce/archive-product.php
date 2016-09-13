@@ -1,3 +1,4 @@
+<?php print_var("archive-product.php"); ?>
 <?php
 /**
  * The Template for displaying product archives, including the main shop page which is a post type archive
@@ -20,8 +21,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-get_header( 'shop' ); ?>
+get_header( 'shop' );
 
+?>
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.

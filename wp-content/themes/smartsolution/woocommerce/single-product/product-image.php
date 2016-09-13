@@ -1,3 +1,4 @@
+<?php print_var("/single-product/product-image.php");?>
 <?php
 /**
  * Single Product Image
@@ -48,5 +49,7 @@ global $post, $product;
 		}
 
 		do_action( 'woocommerce_product_thumbnails' );
+
 	?>
 </div>
+<?php print_var("END /single-product/product-image.php");?>

@@ -1,3 +1,4 @@
+<?php print_var("/single-product/title.php");?>
 <?php
 /**
  * Single Product title
@@ -21,3 +22,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
+
+print_var("END /single-product/title.php");

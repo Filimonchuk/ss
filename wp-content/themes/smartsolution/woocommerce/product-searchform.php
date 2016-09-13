@@ -1,3 +1,4 @@
+<?php print_var("product-searchform.php");?>
 <?php
 /**
  * The template for displaying product search form

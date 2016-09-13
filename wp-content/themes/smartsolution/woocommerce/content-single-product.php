@@ -1,3 +1,4 @@
+<?php print_var("content-single-product.php"); ?>
 <?php
 /**
  * The template for displaying product content in the single-product.php template
@@ -83,3 +84,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 </div><!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
+
+<?php print_var("END content-single-product.php"); ?>
